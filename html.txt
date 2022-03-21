@@ -1,0 +1,17 @@
+<!DOCTYPE>
+<html>
+<head>
+<tittle>reverse given number</title>
+<Script type = "text/javascript">
+var a,b=0;
+a=parseInt(promt("enter number to reverse"));
+while(1>0)
+{
+b=b*10;
+b=b+parseInt(a%10);
+a=parseInt(a/10);
+}
+documents.write("reverse number",b);
+</script>
+</head>
+</html>
